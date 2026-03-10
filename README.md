@@ -8,7 +8,7 @@ The pipeline ingests raw CSV datasets using **Databricks Auto Loader**, processe
 
 ## Architecture
 
-![Architecture](architecture/architecture.png)
+![Architecture](lakehouse-medallion-architecture.png)
 
 ### Medallion Layers
 
