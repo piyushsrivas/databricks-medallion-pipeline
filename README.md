@@ -6,6 +6,20 @@ The pipeline ingests raw CSV datasets using **Databricks Auto Loader**, processe
 
 ---
 
+## Pipeline Flow
+
+Raw CSV Data  
+↓  
+Databricks Auto Loader  
+↓  
+Bronze Layer (Raw Delta Tables)  
+↓  
+Silver Layer (Cleaned & Transformed Data)  
+↓  
+Gold Layer (Analytics Tables)
+
+---
+
 ## Architecture
 
 ![Architecture](image.png)
