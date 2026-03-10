@@ -50,7 +50,7 @@ databricks-medallion-pipeline
 │
 ├── README.md
 ├── architecture
-│   └── architecture.png
+│   └── image.png
 │
 ├── notebooks
 │   ├── 01_Setup.py
